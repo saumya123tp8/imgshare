@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Cute+Font&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+.fbbtn{
+  /* background-image: url('../public/Facebook-logo.png'); */
+  border-radius: 50%;
+  background-color: #fafafa;
+  color: #114D99;
+  height: 100%;
+  /* width: 100%; */
+  /* transform: scale(1); */
+}
+body {
+  /* background-color: #EA9306; */
+  background-image: url(../public/bgc.jpg);
+  margin: 0;
+  font-family: 'Cute Font', cursive;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  color: #fff;
+  letter-spacing: 1px; 
+  text-align: center;
+}
+
+.header {
+  margin-top: 10px;
+}
+
+.container {
+  background-color: #f1dabd;
+/*   width: 70vw; */
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  flex-wrap: wrap;  
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px #993511, -8px -8px 8px #00633d, 8px -8px 8px #114D99, -8px 8px 8px #114D99;
+  
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;   
+  flex-wrap: wrap; 
+  width: 100%;  
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;   
+  flex-wrap: wrap; 
+  width: 100%;
+}
+#cat-img {
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+#cat-img img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+.twbtn{
+  border-radius: 50%;
+  color: #114D99;
+}
+#btn-cat {
+  margin: 10px;
+  padding: 2px 12px;
+  border-radius: 50%;
+  outline: none;  
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #114D99;
+}
+
+#btn-cat:hover {
+  background-color: #ffffff;
+  color: #114D99;
+  transform: scale(1.1);
+}
+
+#btn-dog:active, #btn-cat:active {
+  transform: scale(.9);
+}
+
+@media only screen and (max-width: 590px) {
+  .header {
+    font-size: 20px;
+  }
+  #dog-img, #cat-img {
+    background-color: #fff;    
+    width: 200px;
+    height: 200px;
+  }
+}
+.reload {
+  font-family: Lucida Sans Unicode
+}
